@@ -1,0 +1,21 @@
+<html>
+    <%- include('navbar', {links: links}) %>
+    <header>
+
+    </header>
+
+    <body>
+        <form method="POST" action="/new">
+            <label>Username: </label>
+            <input name="userName" type="text">
+            <br>
+            <br>
+            <label>Message: </label>
+            <br>
+            <textarea name="message" style="width: 50%; height: 100px;">type your message here!</textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+
+</html>
